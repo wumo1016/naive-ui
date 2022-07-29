@@ -946,5 +946,10 @@ export const routes = [
         theme: 'os-theme'
       }
     }
+  },
+  {
+    name: 'tree1',
+    path: '/tree1',
+    component: () => import('../test/tree1.vue')
   }
 ]
